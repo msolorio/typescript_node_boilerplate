@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "lib": ["es6","dom"],
+    "module": "Node16",
+    "resolveJsonModule": true,
+    "rootDir": "src",
+    "outDir": "dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "checkJs": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"],
+  "watchOptions": {
+    "fallbackPolling": "dynamicPriority",
+    "excludeDirectories": ["node_modules", "dist"]
+  }
+}
