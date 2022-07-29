@@ -10,7 +10,7 @@
     "esModuleInterop": true,
     "strict": true,
     "alwaysStrict": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "strictNullChecks": false,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
